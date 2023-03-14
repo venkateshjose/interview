@@ -27,27 +27,28 @@ public class ListtoMap {
 		aa.forEach((k, j) -> System.out.println("lll" + j));
 
 		// Matches
-		/*
-		 * List<String> a = empList2.stream().filter(emp2 ->
-		 * empList.stream().anyMatch(emp.getSalary().equals("Accounts") && emp ->
-		 * emp.getSalary().equals(emp2.getSalary()))).collect(Collectors.toList());
-		 */
 
 		/*
+		 * List<Employee> a = empList2.stream() .filter(emp2 ->
+		 * empList.stream().anyMatch( emp.getSalary().equals("Accounts") && emp ->
+		 * emp.getSalary().equals(emp2.getSalary()))) .collect(Collectors.toList());
+		 * 
+		 * 
 		 * a.stream().forEach(resutl -> { if (resutl.toString().equalsIgnoreCase("aa"))
 		 * {
 		 * 
 		 * } else { System.out.println("matches" + resutl); } });
 		 * 
 		 * }
-		 */
-
-		/*
+		 * 
+		 * 
+		 * 
 		 * List<Employee> filteredList = emplList.stream() .filter(empl ->
 		 * deptList.stream().anyMatch( dept -> dept.getDepartment().equals("sales") &&
 		 * empl.getEmployeeId().equals(dept.getEmployeeId())))
 		 * .collect(Collectors.toList());
 		 */
+		 
 	}
 
 }

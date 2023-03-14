@@ -7,15 +7,15 @@ class TestClass implements TestInterface {
 	}
 
 	/*
-	 * // static method public void show1() {
-	 * System.out.println("Default override Method Executed"); }
+	 * public void show1() { System.out.println("Default override Method Executed");
+	 * }
 	 */
 	public static void main(String args[]) {
 		TestClass d = new TestClass();
 		d.square(4);
 
 		// Static method executed
-		TestInterface.show();
+		d.show1();
 		d.show1();
 	}
 }
